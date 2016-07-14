@@ -147,13 +147,23 @@ nav ul ul li {
 
 main {
 	background-color: #6F7070;
-	width: 50%;
+	max-width: 100%;
+	margin: auto;
 	text-align: center;
+}
+
+p {
+	font-size: 1.em;
+}
+
+.mtext {
+	max-width: 50%;
 }
 
 .main-img {
 	width: 100%;
 }
+
 
 .avi {
 	width: 100%;
@@ -161,9 +171,8 @@ main {
 }
 
 .avi:hover {
-    background-color: #BC2C1A;
+    background-color: #5BC0FF;
     opacity: 0.5;
-    filter: alpha(opacity=50);
 }
 
 footer {

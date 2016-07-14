@@ -1,3 +1,5 @@
+/* grid styles */
+
 .container {
 	width: 100%;
 	margin: 0 auto;
@@ -66,8 +68,8 @@
 
 /* custom styles */
 
-.col-1, .col-2, .col-3, .col-4, 
-.col-5, .col-6, .col-7, .col-8, 
+.col-1, .col-3, .col-4, 
+.col-5, .col-7, .col-8, 
 .col-9, .col-10, .col-11, .col-12 {
 	padding: 1%;
 	border-style: groove;
@@ -75,14 +77,16 @@
 }
 
 body {
+	background-image: url(images/bg.jpg);
 	font-family: Arial;
 }
 
-header{
+header {
+	position: relative;
 	background-color: rgba(173, 173, 173, 0.5);
 }
 
-h1, h3 {
+h1, h2, h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
@@ -92,8 +96,8 @@ h1 {
 }
 
 h3 {
-	font-size: 1.5em; 
-	font-style: italic;
+	color: #DDDDDD;
+	font-size: 1.15em; 
 }
 
 nav {
@@ -101,24 +105,25 @@ nav {
 }
 
 nav ul {
-	position: relative;;
+	position: relative;
+	max-height: 100%;
 }
 
-nav ul li {
+.col-2 {
 	display: inline-block;
-	margin: 0 2%;
-
 }
 
 nav a {
 	display: block;
 	text-decoration: none;
+	vertical-align: middle;
 	line-height: 1.5em;
 	color: #000;
 	padding: 1%;
 }
 
 nav ul li:hover {
+	color: #D6D6D6;
 	background-color: #000;
 }
 
@@ -129,83 +134,7 @@ nav ul ul {
 }
 
 nav ul li:hover > ul {
-	display: inherit;
-}
-
-nav ul ul li {
-	display: list-item;
-	position: relative;
-	min-width: 150px;
-	background-color: #fff;
-}
-body {
-	background-image: url(images/Bio/bg.jpg);
-	background-color: #4E474A;
-	color: #ccc;
-	font-family: Arial;
-}
-
-.container {
-	width: 80%; 
-	margin: 0 auto;
-}
-
-body {
-	background-image: url(images/bg.jpg);
-	font-family: Arial;
-}
-
-header {
-	background-color: rgba(173, 173, 173, 0.5);
-}
-
-h1, h3 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-}
-
-h1 {
-	font-size: 3em; 
-}
-
-h3 {
-	font-size: 1.5em; 
-	font-style: italic;
-}
-
-nav {
-	text-align: center;
-}
-
-nav ul {
-	position: relative;;
-}
-
-nav ul li {
-	display: inline-block;
-	margin: 0 2%;
-
-}
-
-nav a {
-	display: block;
-	text-decoration: none;
-	line-height: 1.5em;
-	color: #000;
-	padding: 1%;
-}
-
-nav ul li:hover {
-	background-color: rgba(0, 0, 0, 0.65);
-}
-
-nav ul ul {
-	display: none;
-	position: absolute;
-	top: 100%;
-}
-
-nav ul li:hover > ul {
+	color: #D6D6D6;
 	display: inherit;
 }
 
@@ -218,6 +147,9 @@ nav ul ul li {
 
 main {
 	background-color: rgba(29, 149, 185, 0.10);
+}
+.vid {
+	margin: auto;
 }
 
 video {
