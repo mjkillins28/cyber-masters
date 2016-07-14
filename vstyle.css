@@ -196,7 +196,6 @@ nav a {
 }
 
 nav ul li:hover {
-	color: #D6D6D6;
 	background-color: rgba(0, 0, 0, 0.65);
 }
 
@@ -220,6 +219,7 @@ nav ul ul li {
 main {
 	background-color: rgba(29, 149, 185, 0.10);
 }
+
 video {
 	align-self: center;
 }
@@ -230,9 +230,11 @@ section {
 	display: inline-block;
 	background-color: #242226;
 }
+
 section img {
 	max-width: 100%;
 }
+
 aside {
 	width: 30%;
 	padding: 2%;
@@ -241,9 +243,11 @@ aside {
 	font-size: 15px;
 	
 }
+
 p {
 	  font-size: 2vmin;
 }
+
 footer {
 	text-align: center;
 	background-color: #111111;
