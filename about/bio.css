@@ -69,7 +69,7 @@
 /* custom styles */
 
 .col-1, .col-3, .col-4, 
-.col-5, .col-6, .col-7, .col-8, 
+.col-5, .col-7, .col-8, 
 .col-9, .col-10, .col-11, .col-12 {
 	padding: 1%;
 	border-style: groove;
@@ -86,7 +86,7 @@ header {
 	background-color: rgba(173, 173, 173, 0.5);
 }
 
-h1, h3 {
+h1, h2, h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
@@ -96,17 +96,12 @@ h1 {
 }
 
 h3 {
-	font-size: 1.5em; 
-	font-style: italic;
+	color: #DDDDDD;
+	font-size: 1.15em; 
 }
 
 nav {
 	text-align: center;
-}
-
-#iefix {
-position:relative;
-z-index:1000;
 }
 
 nav ul {
@@ -150,6 +145,11 @@ nav ul ul li {
 	background-color: #fff;
 }
 
+main {
+	max-width: 70%;
+	margin: auto;
+}
+
 section {
 	width: 60%;
 	padding: 1.5%;
@@ -158,17 +158,19 @@ section {
 }
 section img {
 	max-width: 100%;
+	margin: auto;
 }
 aside {
 	width: 30%;
 	padding: 2%;
-	float: left;
+	float: right;
 	word-wrap: break-word;
 	font-size: 15px;
 	
 }
 p {
-	  font-size: 2.5vmin;
+	  color: #DDDDDD;
+	  font-size: 2.0vmin;
 }
 
 footer {
