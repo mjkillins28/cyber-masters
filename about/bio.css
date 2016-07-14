@@ -104,6 +104,11 @@ nav {
 	text-align: center;
 }
 
+#iefix {
+position:relative;
+z-index:1000;
+}
+
 nav ul {
 	position: relative;
 	max-height: 100%;
